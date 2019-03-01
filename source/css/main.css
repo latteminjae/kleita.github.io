@@ -34,9 +34,9 @@ html, body {
 }
 
 #wrap header #logoBox {
-  padding: 25px 0 0 20px;
+  padding: 21px 0 0 45px;
   line-height: 42px;
-  font-size: 30px;
+  font-size: 27px;
   color: #3b3b3b;
 }
 
@@ -122,7 +122,7 @@ html, body {
 }
 
 #wrap section ul .p0 .ma {
-  font-size: 200px;
+  font-size: 210px;
   color: #ff0163;
   font-family: 'Noto Sans CJK KR Black';
 }
@@ -134,20 +134,20 @@ html, body {
 #wrap section ul .p0 .bot {
   background: #f7f7f7;
   font-family: 'Noto Sans CJK KR Thin';
-  height: 180px;
+  height: 210px;
   width: 100%;
   position: absolute;
   left: 0;
   bottom: 0px;
-  padding-top: 45px;
+  padding-top: 50px;
   font-size: 44px;
   box-sizing: border-box;
 }
 
 #wrap section ul .p0 .bot p {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   color: #333;
-  letter-spacing: 10px;
+  letter-spacing: 15px;
 }
 
 #wrap section ul .p1 {
@@ -162,7 +162,7 @@ html, body {
 #wrap section ul .p1 .magenta {
   font-size: 26px;
   letter-spacing: 12px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-family: 'Noto Sans CJK KR Thin';
 }
 
@@ -181,7 +181,7 @@ html, body {
 }
 
 #wrap section ul .p1 .searchBox #typing {
-  font-size: 40px;
+  font-size: 36px;
   letter-spacing: 2px;
 }
 
@@ -208,16 +208,16 @@ html, body {
 }
 
 #wrap section ul .p1 .colorBar {
-  width: 400px;
+  width: 500px;
   height: 4px;
   margin: auto;
-  background: #f74986;
+  background: #ff2765;
   overflow: hidden;
   position: relative;
 }
 
 #wrap section ul .p1 .colorBar > img {
-  width: 200px;
+  width: 350px;
   height: 4px;
   position: absolute;
   top: 0;
@@ -247,7 +247,7 @@ html, body {
 }
 
 #wrap section ul .p2 .searchBox .typing {
-  font-size: 40px;
+  font-size: 36px;
   letter-spacing: 2px;
 }
 
@@ -271,13 +271,13 @@ html, body {
 
 #wrap section ul .p2 .middleBox {
   width: 1300px;
-  height: 450px;
+  height: 500px;
   margin: auto;
 }
 
 #wrap section ul .p2 .middleBox > p {
   font-family: 'Noto Sans CJK KR Thin';
-  font-size: 46px;
+  font-size: 42px;
 }
 
 #wrap section ul .p2 .middleBox > p span {
@@ -292,7 +292,7 @@ html, body {
 }
 
 #wrap section ul .p2 .middleBox .strokeBox img {
-  width: 1000px;
+  width: 1130px;
 }
 
 #wrap section ul .p2 .middleBox .strokeBox p {
@@ -329,7 +329,7 @@ html, body {
 
 #wrap section ul .p3 .left .magenta {
   font-family: 'Noto Sans CJK KR Thin';
-  font-size: 20px;
+  font-size: 23px;
   margin-bottom: 60px;
   letter-spacing: 10px;
 }
@@ -337,7 +337,7 @@ html, body {
 #wrap section ul .p3 .left .txt {
   font-family: 'Noto Sans CJK KR Thin';
   font-size: 44px;
-  line-height: 68px;
+  line-height: 62px;
 }
 
 #wrap section ul .p3 .left .txt span {
@@ -523,7 +523,7 @@ html, body {
 }
 
 #wrap section ul .p4 .txtBox p {
-  font-size: 50px;
+  font-size: 54px;
   line-height: 70px;
   font-family: 'Noto Sans CJK KR Thin';
   margin-bottom: 10px;
@@ -535,7 +535,9 @@ html, body {
 }
 
 #wrap section ul .p4 .txtBox img {
-  width: 78px;
+  width: 76px;
+  position: relative;
+  right: 9.5%;
 }
 
 #wrap section ul .p4 .phone > img {
@@ -581,19 +583,19 @@ html, body {
 #wrap section ul .p4 .phone .txtbar div.fir {
   font-family: 'Noto Sans CJK KR Thin';
   top: 0;
-  transition-delay: .6s;
+  transition-delay: 1s;
 }
 
 #wrap section ul .p4 .phone .txtbar div.sec {
   font-family: 'Noto Sans CJK KR Regular';
   top: 178px;
-  transition-delay: .9s;
+  transition-delay: 2s;
 }
 
 #wrap section ul .p4 .phone .txtbar div.thi {
   font-family: 'Noto Sans CJK KR Bold';
   top: 356px;
-  transition-delay: 1.2s;
+  transition-delay: 3s;
 }
 
 #wrap section ul .p4.on .phone .txtbar > div {
@@ -615,19 +617,19 @@ html, body {
 }
 
 #wrap section ul .p5 .row_1 {
-  margin-bottom: 35px;
+  margin-bottom: 50px;
   transition-delay: .7s;
 }
 
 #wrap section ul .p5 .row_1 img {
   width: 200px;
-  margin-bottom: 28px;
+  margin-bottom: 23px;
 }
 
 #wrap section ul .p5 .row_1 p {
   font-size: 28px;
   color: #fff;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 
 #wrap section ul .p5 .row_2 {
@@ -636,13 +638,13 @@ html, body {
 }
 
 #wrap section ul .p5 .row_2 p {
-  font-size: 64px;
+  font-size: 70px;
   color: #fff;
+  font-family: 'Noto Sans CJK KR Black';
   margin-bottom: 45px;
 }
 
 #wrap section ul .p5 .row_2 p span {
-  font-family: 'Noto Sans CJK KR Black';
   color: #ff2765;
 }
 
@@ -654,7 +656,8 @@ html, body {
 #wrap section ul .p5 .row_3 p {
   font-size: 32px;
   line-height: 44px;
-  color: #adacac;
+  color: #fff;
+  opacity: .5;
 }
 
 #wrap section ul .p5 .row_4 {
@@ -662,7 +665,7 @@ html, body {
 }
 
 #wrap section ul .p5 .row_4 img {
-  width: 240px;
+  width: 400px;
 }
 
 #wrap section ul .p5 .row_4 img.left {
