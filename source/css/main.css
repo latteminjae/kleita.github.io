@@ -289,6 +289,10 @@ html, body {
   padding-left: 100px;
   font-family: 'Noto Sans CJK KR Black';
   position: relative;
+  left: -100px;
+  opacity: 0;
+  transition: all .75s;
+  transition-delay: .6s;
 }
 
 #wrap section ul .p2 .middleBox .strokeBox img {
@@ -306,6 +310,11 @@ html, body {
 
 #wrap section ul .p2 .middleBox .right {
   text-align: right;
+}
+
+#wrap section ul .p2.on .strokeBox {
+  left: 0;
+  opacity: 1;
 }
 
 #wrap section ul .p3 {
