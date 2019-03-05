@@ -548,6 +548,7 @@ html, body {
   width: 76px;
   position: relative;
   right: 2%;
+  margin-top: 15px;
 }
 
 #wrap section ul .p4 .phone > img {
