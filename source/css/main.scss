@@ -21,11 +21,11 @@ html, body {
     header {
         position: fixed;width:100%;
         top:0; left:0; height: 90px; z-index: 10;
-        font-family: 'Noto Sans CJK KR DemiLight';
+        font-family: 'Noto Sans CJK KR Light';
         #logoBox {
             padding:21px 0 0 45px;
             line-height: 42px; font-size: 27px;
-            color:#3b3b3b;
+            color:#3b3b3b;opacity:.7;
             img {
                 float: left; margin-right: 22px;
                 width: 42px;
@@ -44,10 +44,10 @@ html, body {
             ul {
                 li {
                     float: left;
-                    margin-left: 60px;
+                    margin-left: 50px;
                     a {
                         text-decoration: none;
-                        color:#3b3b3b; font-size: 30px;
+                        color:#3b3b3b; font-size: 24px;
                         &:hover {
                             color: #bbbbbb;
                         }
@@ -118,15 +118,15 @@ html, body {
                 }
             }
             .p1 {
-                padding-top: 13%; 
+                padding-top: 11%; 
                 text-align: center;
                 .logoBig {
-                    margin-bottom: 32px;
+                    margin-bottom: 18px;
                 }
                 .magenta {
                     font-size: 26px;
                     letter-spacing: 12px;
-                    margin-bottom: 30px;
+                    margin-bottom: 70px;
                     font-family: 'Noto Sans CJK KR Thin';
                 }
                 .searchBox {
@@ -136,7 +136,7 @@ html, body {
                     border: 5px solid #ff2765;
                     padding-left: 24px; line-height: 85px;
                     position: relative; background: #fff;
-                    margin-bottom: 110px;
+                    margin-bottom: 100px;
                     #typing {
                         font-size: 36px;
                         letter-spacing: 2px;
@@ -178,7 +178,7 @@ html, body {
             }
             .p2 {
                 .searchBox {
-                    margin:8% auto 6.3%; text-align: left;
+                    margin:4% auto 6.3%; text-align: left;
                     width: 900px; height: 85px;
                     border: 5px solid #828282;
                     padding-left: 24px; line-height: 85px;
@@ -218,15 +218,15 @@ html, body {
                         position: relative;
                         left:-100px;
                         opacity: 0;
-                        transition: all .75s;
-                        transition-delay: .6s;
+                        transition: all 1s;
+                        transition-delay: 1.3s;
                         img {
                             width:1130px;
                         }
                         p {
                             font-size: 55px; color: #fff;
                             padding-left:80px ;
-                            position: absolute; top:65px; left: 145px;
+                            position: absolute; top:75px; left: 145px;
                         }
                     }
                     .right {
@@ -245,19 +245,19 @@ html, body {
                     width:50%;
                 }
                 .left {
-                    padding-top: 15%;box-sizing: border-box;
+                    padding-top: 12px;box-sizing: border-box;
                     text-align: center;
                     img {
                         margin-bottom: 24px;
                     }
                     .magenta {
                         font-family: 'Noto Sans CJK KR Thin';
-                        font-size: 23px; margin-bottom: 60px;
+                        font-size: 23px; margin-bottom: 40px;
                         letter-spacing: 10px;
                     }
                     .txt {
                         font-family: 'Noto Sans CJK KR Thin';
-                        font-size: 44px; line-height: 62px;
+                        font-size: 44px; line-height: 56px;
                         span {
                             font-family: 'Noto Sans CJK KR Bold';
                         }
@@ -373,7 +373,8 @@ html, body {
                     img {
                         width: 76px;
                         position: relative;
-                        right: 9.5%;
+                        right: 2%;
+                        // margin-top: 
                     }
                 }
                 .phone {
@@ -409,14 +410,16 @@ html, body {
                                 font-family: 'Noto Sans CJK KR Thin';
                                 top:0;
                                 transition-delay:1s;
+                                letter-spacing: -2px;
                             }
                             &.sec {
-                                font-family: 'Noto Sans CJK KR Regular';
+                                font-family: 'Noto Sans CJK KR Bold';
                                 top:178px;
                                 transition-delay:2s;
+                                letter-spacing: -2px;
                             }
                             &.thi {
-                                font-family: 'Noto Sans CJK KR Bold';
+                                font-family: 'Noto Sans CJK KR Black';
                                 top:356px;
                                 transition-delay:3s;
                             }
@@ -448,21 +451,23 @@ html, body {
                     margin-bottom: 50px;
                     transition-delay:.7s;
                     img {
-                        width: 200px;
-                        margin-bottom: 23px;
+                        width: 220px;
+                        margin-bottom: 12px;
+                        opacity: .9;
                     }
                     p {
-                        font-size: 28px; color:#fff;
-                        letter-spacing: 5px;
+                        font-size: 30px; color:#fff;
+                        letter-spacing: 13px;
+                        opacity: .5; margin-left: 8px;
                     }
                 }
                 .row_2 {
-                    margin-bottom: 40px;
+                    margin-bottom: 10px;
                     transition-delay:1.1s;
                     p {
                         font-size: 70px; color:#fff;
                         font-family: 'Noto Sans CJK KR Black';
-                        margin-bottom: 45px;
+                        margin-bottom: 30px;
                         span {
                             color:#ff2765;
                         }
@@ -470,18 +475,20 @@ html, body {
                 }
                 .row_3 {
                     transition-delay:1.5s;
-                    margin-bottom: 65px;
+                    margin-bottom: 50px;
                     p {
-                        font-size: 32px; line-height: 44px;
+                        font-size: 34px; line-height: 50px;
                         color:#fff; opacity: .5;
+                        font-family: 'Noto Sans CJK KR Thin';
+                        letter-spacing: -2px;
                     }
                 }
                 .row_4 {
                     transition-delay:1.9s;
                     img {
-                        width: 400px;
+                        width: 300px;
                         &.left {
-                            margin-right: 46px;
+                            margin-right: 25px;
                         }
                     }
                 }
